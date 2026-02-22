@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "test1": "Layout & Style",
+    "test2": "Form & Table"
+  },
+  "language": "Language",
+  "test1": {
+    "title": "Layout & Style",
+    "moveShape": "Move Shape",
+    "movePosition": "Move Position"
+  },
+  "test2": {
+    "title": "Form & Table",
+    "form": {
+      "title": "Title",
+      "titleLabel": "Title",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "birthday": "Birthday",
+      "nationality": "Nationality",
+      "citizenId": "Citizen ID",
+      "gender": "Gender",
+      "phone": "Mobile Phone",
+      "passportNo": "Passport No.",
+      "salary": "Expected Salary",
+      "submit": "Submit",
+      "reset": "Reset",
+      "update": "Update",
+      "cancel": "Cancel",
+      "mr": "Mr.",
+      "mrs": "Mrs.",
+      "ms": "Ms.",
+      "male": "Male",
+      "female": "Female",
+      "unspcified": "Unspecified",
+      "selectTitle": "Select title",
+      "selectGender": "Select gender",
+      "selectNationality": "Select nationality",
+      "selectPhoneCode": "Code",
+      "thai": "Thai",
+      "french": "French",
+      "american": "American",
+      "chinese": "Chinese",
+      "japanese": "Japanese",
+      "korean": "Korean"
+    },
+    "table": {
+      "name": "Name",
+      "gender": "Gender",
+      "phone": "Mobile Phone",
+      "nationality": "Nationality",
+      "actions": "Manage",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteSelected": "Delete Selected",
+      "selectAll": "Select All",
+      "noData": "No data"
+    }
+  }
+}

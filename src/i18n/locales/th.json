@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "test1": "Grid Layout",
+    "test2": "CRUD"
+  },
+  "language": "ภาษา",
+  "test1": {
+    "title": "การจัดการหน้าเว็บ",
+    "moveShape": "เลื่อนรูปทรง",
+    "movePosition": "สลับตำแหน่ง"
+  },
+  "test2": {
+    "title": "ฟอร์มและตาราง",
+    "form": {
+      "title": "คำนำหน้า",
+      "titleLabel": "คำนำหน้า",
+      "firstName": "ชื่อ",
+      "lastName": "นามสกุล",
+      "birthday": "วันเกิด",
+      "nationality": "สัญชาติ",
+      "citizenId": "เลขบัตรประชาชน",
+      "gender": "เพศ",
+      "phone": "หมายเลขโทรศัพท์มือถือ",
+      "passportNo": "หนังสือเดินทาง",
+      "salary": "เงินเดือนที่คาดหวัง",
+      "submit": "ส่งข้อมูล",
+      "reset": "ล้างข้อมูล",
+      "update": "อัปเดต",
+      "cancel": "ยกเลิก",
+      "mr": "นาย",
+      "mrs": "นาง",
+      "ms": "นางสาว",
+      "male": "ผู้ชาย",
+      "female": "ผู้หญิง",
+      "unspcified": "ไม่ระบุ",
+      "selectTitle": "เลือกคำนำหน้า",
+      "selectGender": "เลือกเพศ",
+      "selectNationality": "เลือกสัญชาติ",
+      "selectPhoneCode": "รหัส",
+      "thai": "ไทย",
+      "french": "ฝรั่งเศส",
+      "american": "อเมริกัน",
+      "chinese": "จีน",
+      "japanese": "ญี่ปุ่น",
+      "korean": "เกาหลี"
+    },
+    "table": {
+      "name": "ชื่อ-นามสกุล",
+      "gender": "เพศ",
+      "phone": "หมายเลขโทรศัพท์",
+      "nationality": "สัญชาติ",
+      "actions": "จัดการ",
+      "edit": "แก้ไข",
+      "delete": "ลบ",
+      "deleteSelected": "ลบรายการที่เลือก",
+      "selectAll": "เลือกทั้งหมด",
+      "noData": "ไม่มีข้อมูล"
+    }
+  }
+}

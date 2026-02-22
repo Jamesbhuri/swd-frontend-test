@@ -1,0 +1,153 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* --- Button area --- */
+.buttonRow {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.actionBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 120px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #fafafa;
+  transition: all 0.2s ease;
+  gap: 12px;
+}
+
+.actionBtn:hover {
+  border-color: #FFA200;
+  box-shadow: 0 2px 12px rgba(255, 162, 0, 0.15);
+}
+
+.actionBtnLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Action button icons */
+.triangleRow {
+  display: flex;
+  gap: 4px;
+}
+
+.miniTriangleLeft {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 14px solid #FFA200;
+}
+
+.miniTriangleRight {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 14px solid #FFA200;
+}
+
+.arrowsUpDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.miniArrowUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid #FFA200;
+}
+
+.miniArrowDown {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 14px solid #FFA200;
+}
+
+/* --- Shape grid --- */
+.shapeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  transition: all 0.3s ease;
+}
+
+.shapeCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.shapeCell:hover {
+  border-color: #6EDA78;
+  box-shadow: 0 2px 12px rgba(110, 218, 120, 0.2);
+  transform: scale(1.02);
+}
+
+/* --- CSS Shapes --- */
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #FFA200;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #6EDA78;
+}
+
+.ellipse {
+  width: 100px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #FFA200;
+}
+
+.trapezoid {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid #6EDA78;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  /* top width = bottom_width - left - right */
+}
+
+.rectangle {
+  width: 100px;
+  height: 60px;
+  background-color: #FFA200;
+}
+
+.parallelogram {
+  width: 100px;
+  height: 60px;
+  background-color: #6EDA78;
+  transform: skew(-20deg);
+}
